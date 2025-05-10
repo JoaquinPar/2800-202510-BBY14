@@ -1,0 +1,132 @@
+{
+    "countries": [
+        {
+          "country": "United States",
+          "currency_abbreviation": "USD"
+        },
+        {
+          "country": "Eurozone",
+          "currency_abbreviation": "EUR"
+        },
+        {
+          "country": "United Kingdom",
+          "currency_abbreviation": "GBP"
+        },
+        {
+          "country": "Japan",
+          "currency_abbreviation": "JPY"
+        },
+        {
+          "country": "Switzerland",
+          "currency_abbreviation": "CHF"
+        },
+        {
+          "country": "Canada",
+          "currency_abbreviation": "CAD"
+        },
+        {
+          "country": "Australia",
+          "currency_abbreviation": "AUD"
+        },
+        {
+          "country": "China",
+          "currency_abbreviation": "CNY"
+        },
+        {
+          "country": "India",
+          "currency_abbreviation": "INR"
+        },
+        {
+          "country": "Russia",
+          "currency_abbreviation": "RUB"
+        },
+        {
+          "country": "Brazil",
+          "currency_abbreviation": "BRL"
+        },
+        {
+          "country": "Mexico",
+          "currency_abbreviation": "MXN"
+        },
+        {
+          "country": "South Korea",
+          "currency_abbreviation": "KRW"
+        },
+        {
+          "country": "Indonesia",
+          "currency_abbreviation": "IDR"
+        },
+        {
+          "country": "Bulgaria",
+          "currency_abbreviation": "BGN"
+        },
+        {
+          "country": "Czech Republic",
+          "currency_abbreviation": "CZK"
+        },
+        {
+          "country": "Denmark",
+          "currency_abbreviation": "DKK"
+        },
+        {
+          "country": "Hong Kong",
+          "currency_abbreviation": "HKD"
+        },
+        {
+          "country": "Hungary",
+          "currency_abbreviation": "HUF"
+        },
+        {
+          "country": "Israel",
+          "currency_abbreviation": "ILS"
+        },
+        {
+          "country": "Iceland",
+          "currency_abbreviation": "ISK"
+        },
+        {
+          "country": "Malaysia",
+          "currency_abbreviation": "MYR"
+        },
+        {
+          "country": "Norway",
+          "currency_abbreviation": "NOK"
+        },
+        {
+          "country": "New Zealand",
+          "currency_abbreviation": "NZD"
+        },
+        {
+          "country": "Philippines",
+          "currency_abbreviation": "PHP"
+        },
+        {
+          "country": "Poland",
+          "currency_abbreviation": "PLN"
+        },
+        {
+          "country": "Romania",
+          "currency_abbreviation": "RON"
+        },
+        {
+          "country": "Sweden",
+          "currency_abbreviation": "SEK"
+        },
+        {
+          "country": "Singapore",
+          "currency_abbreviation": "SGD"
+        },
+        {
+          "country": "Thailand",
+          "currency_abbreviation": "THB"
+        },
+        {
+          "country": "Turkey",
+          "currency_abbreviation": "TRY"
+        },
+        {
+          "country": "South Africa",
+          "currency_abbreviation": "ZAR"
+        }
+    ]
+}

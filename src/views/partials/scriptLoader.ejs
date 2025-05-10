@@ -1,0 +1,7 @@
+<!-- Get geolocation if not in session and load conversion rates -->
+<script src="/static/scripts/geolocation.js"></script>
+<script>
+    // If no geoData provided thorugh EJS, send update request to backend
+    let country = "<%= geoData.country %>";
+    if (!country) getLocation();
+</script>

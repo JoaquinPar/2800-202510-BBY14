@@ -1,0 +1,39 @@
+<%- include("./partials/fileHeader") %>
+<%- include("./partials/headerStart") %>
+
+<main>
+    <section class="bg-white dark:bg-gray-900 py-12 md:py-20">
+        <div class="max-w-screen-lg mx-auto px-4 text-center">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">About RCalculator</h1>
+            <p class="mb-12 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 dark:text-gray-400">Welcome to RCalculator, your partner in building a secure and fulfilling financial future.</p>
+        </div>
+
+        <div class="max-w-screen-md mx-auto px-4">
+            <h2 class="mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Our Mission</h2>
+            <p class="mb-6 font-normal text-gray-600 dark:text-gray-400 text-lg text-center">
+                Our mission is to empower you with the tools and insights needed to take control of your long-term financial goals.
+            </p>
+            <div class="prose lg:prose-lg dark:prose-invert mx-auto text-gray-600 dark:text-gray-400">
+                <p class="mb-4">
+                    We believe that planning for your desired future, especially retirement, shouldn't be daunting. It doesn't matter what your current age or career status is – starting now is what counts.
+                </p>
+                <p class="mb-4">
+                    At RCalculator, we help you trace a personalized plan that suits your unique aspirations. We provide clear, actionable advice and projections to guide you on how to get there, whether you're just starting your career, mid-way through, or nearing retirement.
+                </p>
+                <p>
+                    Let us help you navigate the path to financial independence and achieve the retirement lifestyle you envision.
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <a href="/signup" class="inline-flex justify-center items-center mt-4 py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                Get started
+                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+</main>
+
+<%- include("./partials/footer") %>

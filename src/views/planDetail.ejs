@@ -1,0 +1,75 @@
+<%- include("./partials/fileHeader") %>
+<%- include("./partials/header") %>
+
+<main class="container mx-auto p-4">
+    <h2 class="text-xl text-white font-semibold mb-4">Welcome: <%= user.name %></h2>
+    <div class="max-w-lg mx-auto bg-white p-6 sm:p-8 rounded-xl shadow-lg space-y-6 dark:bg-gray-800">
+        
+        <div class="text-center">
+            <h3 class="text-2xl font-bold text-gray-800 dark:text-white"><%= plan.name %></h3>
+        </div>
+
+        <div>
+            <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-blue-700 dark:text-blue-400">Progress</span>
+                <span class="text-sm font-medium text-blue-700 dark:text-blue-400"><%= plan.progress %>%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3 dark:bg-gray-700">
+                <div class="bg-blue-600 h-3 rounded-full dark:bg-blue-500" style="width: <%= plan.progress %>%;"></div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-200 dark:border-gray-700 pt-6 space-y-4">
+            <h4 class="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-3">Assets:</h4>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 dark:text-gray-400">Number of Assets:</label>
+                    <p class="mt-1 text-md text-gray-900 dark:text-white"><%= assets.length %></p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 dark:text-gray-400">Total Value:</label>
+                    <p class="mt-1 text-md text-gray-900 dark:text-white"><%= assets.reduce((total, asset) => total + asset.value, 0) %></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-200 dark:border-gray-700 pt-6 space-y-4">
+            <h4 class="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-3">Plan Details:</h4>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 dark:text-gray-400">Retirement Age:</label>
+                    <p class="mt-1 text-md text-gray-900 dark:text-white"><%= plan.retirementAge %></p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 dark:text-gray-400">Target Monthly Expenses:</label>
+                    <p class="mt-1 text-md text-gray-900 dark:text-white"><%= plan.retirementExpenses %></p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 dark:text-gray-400">Target Retirement Assets:</label>
+                    <p class="mt-1 text-md text-gray-900 dark:text-white"><%= plan.retirementAssets %></p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-600 dark:text-gray-400">Target Retirement Liabilities:</label>
+                    <p class="mt-1 text-md text-gray-900 dark:text-white"><%= plan.retirementLiabilities %></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-200 dark:border-gray-700 pt-6 space-y-4">
+            <h4 class="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-3">Suggestions:</h4>
+            
+            <div class="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg dark:bg-gray-700 dark:border-gray-600">
+                <p class="text-sm text-blue-700 dark:text-blue-300">
+                    USE YOUR HEAD MOCK
+                </p>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<%- include("./partials/navBar") %>
+<%- include("./partials/scriptLoader") %>
+<%- include("./partials/footer") %>

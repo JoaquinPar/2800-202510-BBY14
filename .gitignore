@@ -1,8 +1,14 @@
 # Environment variables
 .env
 
+#vscode files 
+.vscode
+
 # Node modules
 node_modules/
 
 # Sync
 *.sync-conflict*
+
+# VSCode
+.vscode/
